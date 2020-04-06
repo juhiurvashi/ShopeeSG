@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="66115" started-at="2020-04-06T09:33:50 SGT" finished-at="2020-04-06T09:34:57 SGT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="66115" started-at="2020-04-06T09:33:50 SGT" finished-at="2020-04-06T09:34:57 SGT">
+      <class name="com.shopeeSG.TestScripts.TestRunner">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.shopeeSG.TestScripts.TestRunner@46daef40]" name="SetUp" is-config="true" duration-ms="237" started-at="2020-04-06T09:33:50 SGT" finished-at="2020-04-06T09:33:50 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.shopeeSG.TestScripts.TestRunner@46daef40]" name="preCondition" is-config="true" duration-ms="34148" started-at="2020-04-06T09:33:51 SGT" finished-at="2020-04-06T09:34:25 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="swipeAllScreen()[pri:0, instance:com.shopeeSG.TestScripts.TestRunner@46daef40]" name="swipeAllScreen" duration-ms="29798" started-at="2020-04-06T09:34:25 SGT" finished-at="2020-04-06T09:34:54 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- swipeAllScreen -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.shopeeSG.TestScripts.TestRunner@46daef40]" name="getResult" is-config="true" duration-ms="2127" started-at="2020-04-06T09:34:54 SGT" finished-at="2020-04-06T09:34:57 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=swipeAllScreen status=SUCCESS method=TestRunner.swipeAllScreen()[pri:0, instance:com.shopeeSG.TestScripts.TestRunner@46daef40] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shopeeSG.TestScripts.TestRunner@46daef40]" name="tearDown" is-config="true" duration-ms="545" started-at="2020-04-06T09:34:57 SGT" finished-at="2020-04-06T09:34:57 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.shopeeSG.TestScripts.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
